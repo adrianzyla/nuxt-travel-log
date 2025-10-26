@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/eslint", "@nuxt/icon"],
-  css: ["/Users/adrianzyla/Documents/Kursy - programowanie/Nuxt js/nuxt-travel-log/assets/css/main.css"],
+  css: ["/Users/adrianzyla/Documents/Kursy - programowanie/Nuxt js/nuxt-travel-log/app/assets/css/main.css"],
   eslint: {
     config: {
       standalone: false,
@@ -15,4 +15,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  // dir: {
+  //   pages: "pages",
+  // },
 });
